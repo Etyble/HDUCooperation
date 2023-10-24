@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: #333537;
+}
+.header {
+    position: absolute;
+    background-color: #333537;
+    top:0%;
+    width: 1684px;
+    height: 80px;
+}
+.title_block {
+    position: absolute;
+    background-color: #333537;
+    top:0%;
+    width: 1684px;
+    height: 80px;
+}
+.title {
+    position: relative;
+    float:left;
+    left:2%;
+}
+.title a {
+    color:white;
+    text-decoration: none;
+}
+.title_navigation {
+    float:right;
+    height: 80px;
+    width: 500px;
+}
+.title_navi_block {
+    position: relative;
+    float:left;
+    height: 80px;
+    margin: auto 20px;
+}
+.title_navi_block a {
+    position: relative;
+    color:white;
+    top:40%;
+    text-decoration: none;
+}
+.navigation_block {
+    position: fixed;
+    top:0%;
+    width: 1684px;
+    height: 40px;
+    background-color: #333537;
+}
+.navigation {
+    position: absolute;
+    display:flex;
+    height: 40px;
+    width: 1684px;
+    justify-content: space-around;
+}
+.navi_block {
+    position: relative;
+    float:left;
+    height: 40px;
+}
+.navi_block a {
+    position: relative;
+    color:white;
+    text-decoration: none;
+    top:20%;
+}
+
+.main {
+    position: absolute;
+    background-color: #545454;
+    top:80px;
+    width: 1684px;
+    height: 1080px;
+}
+.carousel_block {
+    position: relative;
+    height:500px;
+    width: 1684px;
+    background-color: #545454;
+    margin: 20px 0px;
+}
+.pictures
+{
+    position: relative;
+    float:left;
+    height:500px;
+    width: 1200px;
+    background-color: #333537;
+}
+.pic_inf_block {
+    position: relative;
+    float:left;
+    height:500px;
+    width: 484px;
+}
+.pic_inf {
+    position: relative;
+    height:92px;
+    width: 474px;
+    margin: 10px 0px 10px 10px;
+    background-color: #333537;
+}
+#pic_inf_first {
+    position: relative;
+    height:92px;
+    width: 474px;
+    margin: 0px 0px 10px 10px;
+}
+#pic_inf_last {
+    position: relative;
+    height:92px;
+    width: 474px;
+    margin: 10px 0px 0px 10px;
+}
+p {
+    position: relative;
+    color: white;
+    top:50%;
+}
+.project_block {
+    position:relative;
+    width: 1684px;
+    height: 560px;
+}
+.proj_row {
+    position:relative;
+    display: flex;
+    width: 1684px;
+    height: 250px;
+    margin: 20px 0px;
+    justify-content: space-around;
+}
+.project {
+    width: 300px;
+    height: 250px;
+    background-color: #333537;
+}
+
+.footer {
+    position: absolute;
+    display: flex;
+    background-color: #333537;
+    top:1160px;
+    height: 40px;
+    width: 1684px;
+    justify-content: center;
+    align-items: center;
+}
+.footer h4{
+    color: white;
+}
